@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.form-box {
+  max-width: 500px;
+  margin: 50px auto 0;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+p {
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+.link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.btn {
+  padding: 10px 20px;
+  /* background-color: #3498db;
+  color: #fff; */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px) translateZ(10px);
+}
+
+.card {
+  background-color: aliceblue;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-3px) translateZ(10px);
+}
+
+.nav-item:hover {
+  transform: translateY(-3px) translateZ(10px);
 }
